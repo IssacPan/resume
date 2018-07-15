@@ -1,2 +1,3 @@
-# Resume
-This is csdoker's resume
+# My Resume
+
+Build by Joyee Cheung's resume generator.
