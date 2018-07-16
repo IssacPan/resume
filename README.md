@@ -1,3 +1,3 @@
-# My Resume
+# Resume Generator
 
-Build by Joyee Cheung's resume generator.
+This project built by [Joyee Cheung's resume generator](https://github.com/joyeecheung/resume).

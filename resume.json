@@ -1,0 +1,182 @@
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-122268951-2",
+  "resume_title": "陈抒迪 - 个人简历",
+  "name": "陈抒迪",
+  "repo": "https://github.com/csdoker/Resume.git",
+  "job_description": ["前端工程师", "软件工程师"],
+  "contact": {
+    "phone": "15228805007",
+    "email": "csd758371536@qq.com",
+    "wechat": {
+      "id": "csd758371536",
+      "qrcode": "static/wechat.jpg"
+    },
+    "github": {
+      "id": "csdoker"
+    },
+    "blog": {
+      "url": "https://rekodsc.com"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/csdoker/resume"
+  }, {
+    "type": "pdf",
+    "url": "static/joyeecheung.pdf"
+  }, {
+    "type": "zhihu",
+    "url": "https://www.zhihu.com/people/csdoker"
+  }, {
+    "type": "segmentfault",
+    "url": "https://segmentfault.com/u/csdoker"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "成都东软学院",
+    "major": "软件工程",
+    "start": "2013",
+    "end": "2017",
+    "honor": [
+      "荣获IC3计算机证书"
+    ]
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "CET-4",
+      "full": "710",
+      "score": "542"
+    }],
+    "description": [
+      "熟练使用 Google 等网站查阅相关资料并解决实际问题",
+      "能流畅阅读英文专业书籍、文档及其他资料",
+      "可无字幕观看 MOOC 课程、开发者大会视频",
+      "能够在 Stack Overflow、Quora 等社区正常交流"
+    ]
+  }],
+  "experience": [{
+    "type": "job",
+    "techtype": "frontend",
+    "place": "成都斯沃茨科技有限公司",
+    "start": "2016.12",
+    "end": "2018.02",
+    "name": "前端开发",
+    "description": [
+      "参与公司法禅产品的前端开发，基于 `AngularJS`、`Sass` 开发各个页面组件，实现前端组件及数据交互",
+      "基于 `Gulp` 工具打包项目部署上线",
+      "使用 `ECharts` 等技术开发内部系统数据可视化图表",
+      "使用 `Flexible.js` 适配移动端h5页面",
+      "解决系统的各种 bug 及浏览器兼容问题（`IE10+`）"
+    ],
+    "stack": ["AngularJS", "Sass", "Jquery", "Gulp", "ECharts"],
+    "compatibility": "IE10+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "My Blog",
+    "source": "https://github.com/csdoker/vue-blog",
+    "demo": "https://rekodsc.com",
+    "description": [
+      "我的个人博客，前端基于 `Vue` 构建，后台使用 `Express` 开发",
+      "文章内容使用 `vue-markdown` 插件将数据转换为html的格式",
+      "封装了 `PageNav` 组件实现了后端分页",
+      "图片预览功能采用 `vue-preview` 插件实现",
+      "使用 `Webpack` 驱动页面生成、架设本地服务器、接口调试及打包项目",
+      "项目部署在个人申请的搬瓦工服务器 `Node` 环境下，并由 `Nginx` 驱动"
+    ],
+    "stack": ["Vue", "Express", "Webpack", "Nginx"],
+    "compatibility": "IE11+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "csdwheels",
+    "source": "https://github.com/joyeecheung/diary",
+    "demo": "http://joyeecheung.github.io/diary/",
+    "description": [
+      "一个技术日记站点生成器，从 `git submodule` 中读取 `Markdown` 文件，结合 `Jade` 模板，生成静态站点",
+      "通过 `PostCSS` 将依照实验性 CSS 标准编写的代码转译使用",
+      "前端 JavaScript 代码以 `CommonJS` 形式组织，使用 `WebPack` 进行打包处理",
+      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
+    ],
+    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
+    "compatibility": "IE9+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "Virtual Bookcase",
+    "source": "https://github.com/joyeecheung/virtual-bookcase",
+    "description": [
+      "基于 `Three.js` 实现的 3D 虚拟图书室",
+      "使用 `Express` 与 `MongoDB` 提供图书数据 API",
+      "使用 `RequireJS` 加载模块，`Grunt` 驱动工作流，`Web Worker` 优化图像处理"
+    ],
+    "stack": ["three.js", "mongodb", "express"],
+    "compatibility": "IE10+"
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
+        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
+      ]
+    }, {
+      "summary": "`ECMAScript`（`JavaScript`）",
+      "description": [
+        "熟悉 `ECMAScript`（`JavaScript`），对 `JavaScript 引擎`及相关 JIT 技术有一定的了解",
+        "了解 `ECMAScript` 新标准与相关后处理工具并能在项目中使用"
+      ]
+    }, {
+      "summary": "`DOM` / `BOM` 及常见 `Web API`",
+      "description": [
+        "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C / WHATWG），有桌面 / 移动端前端组件的开发经验",
+        "对 `WebGL` / `Web Workers` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的使用经验",
+        "阅读过 `WebKit` / `Blink` 源码中的部分实现，了解常见的 Web API **兼容性**问题及其解决方案"
+      ]
+    }, {
+      "summary": "前端工程实践",
+      "description": [
+        "使用 `Meteor` / `AngularJS` / `Polymer` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
+        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
+        "在项目中使用过 `Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
+        "在项目中使用过 `Less` / `Sass` / `PostCSS` / `CoffeeScript` / `TypeScript` 等预处理/后处理工具",
+        "日常使用 `Grunt` 或 `Gulp` 改进工作流",
+        "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "`Node.js`",
+      "description": [
+        "能够使用 `Node.js API` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
+        "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案",
+        "能编写简单的 `Express` / `Connect` / `Koa` 中间件，使用 `Mocha` 与 `Chai` 编写单元测试"
+      ]
+    }, {
+      "summary": "其他",
+      "description": [
+        "使用 `Tornado` / `Flask`（`Python`） 搭建过简单的服务器",
+        "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
+        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
+      "熟悉多种平台与编译环境下的 `C` / `C++` 及其新标准，编写过简单的解释器、数据库引擎、3D 图形程序及 Node.js 扩展，能阅读 `WebKit` / `Blink、V8` 等常接触项目的源代码并加以利用",
+      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫、机器学习算法及分布式程序（参见 GitHub）",
+      "具备基本的 `Web 安全`知识（`X.509` / `XSS` / `CSRF` 等）",
+      "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
+      "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
+      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+    ]
+  }]
+}
