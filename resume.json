@@ -93,29 +93,27 @@
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "csdwheels",
-    "source": "https://github.com/joyeecheung/diary",
-    "demo": "http://joyeecheung.github.io/diary/",
+    "name": "Csdwheels",
+    "source": "https://github.com/csdoker/csdwheels",
+    "demo": "https://project.csdoker.com/csdwheels",
     "description": [
-      "一个技术日记站点生成器，从 `git submodule` 中读取 `Markdown` 文件，结合 `Jade` 模板，生成静态站点",
-      "通过 `PostCSS` 将依照实验性 CSS 标准编写的代码转译使用",
-      "前端 JavaScript 代码以 `CommonJS` 形式组织，使用 `WebPack` 进行打包处理",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
+      "根据常见业务需求造的一些轮子，减少项目中的重复逻辑，方便日常开发",
+      "支持 `UMD`、`ES6` 等模块化加载方式，以及按需加载",
+      "代码使用 `Gulp` 构建工具打包处理"
     ],
-    "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
+    "stack": ["UMD", "ES6", "Gulp"],
     "compatibility": "IE9+"
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "Virtual Bookcase",
-    "source": "https://github.com/joyeecheung/virtual-bookcase",
+    "name": "Canvas Projects",
+    "source": "https://github.com/csdoker/canvas-projects",
+    "demo": "https://project.csdoker.com/canvas",
     "description": [
-      "基于 `Three.js` 实现的 3D 虚拟图书室",
-      "使用 `Express` 与 `MongoDB` 提供图书数据 API",
-      "使用 `RequireJS` 加载模块，`Grunt` 驱动工作流，`Web Worker` 优化图像处理"
+      "基于canvas实现的一些项目，包含游戏、算法演示、动画特效等"
     ],
-    "stack": ["three.js", "mongodb", "express"],
+    "stack": ["Canvas", "JavaScript"],
     "compatibility": "IE10+"
   }],
   "skills": [{
