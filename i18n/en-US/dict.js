@@ -16,6 +16,7 @@ module.exports = {
         "zhihu": "Zhihu",
         "doubanbook": "Douban",
         "repo": "Source",
+        "home": "Home",
         "pdf": "PDF"
     },
     section_names: {

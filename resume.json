@@ -20,6 +20,9 @@
     }
   },
   "links": [{
+    "type": "home",
+    "url": "https://csdoker.com"
+  },{
     "type": "repo",
     "url": "https://github.com/csdoker/resume"
   }, {

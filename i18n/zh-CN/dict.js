@@ -16,6 +16,7 @@ module.exports = {
         "zhihu": "知乎",
         "doubanbook": "豆瓣读书",
         "repo": "源代码",
+        "home": "主页",
         "pdf": "PDF 下载"
     },
     section_names: {
